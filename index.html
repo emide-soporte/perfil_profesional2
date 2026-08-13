@@ -1,0 +1,109 @@
+<!-- ... existing code ... -->
+<!-- Sobre Mí -->
+<section id="sobre-mi" class="py-20 md:py-28 bg-white dark:bg-slate-950 transition-colors duration-300 fade-in-section">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="lg:grid lg:grid-cols-12 lg:gap-16 items-center">
+            
+            <!-- Columna Narrativa Profesional (Izquierda en desktop, Primera en móvil) -->
+            <div class="lg:col-span-7 mb-12 lg:mb-0">
+                <div class="flex items-center gap-2 mb-3">
+                    <span class="w-8 h-1 bg-primary-500 rounded-full"></span>
+                    <h2 class="text-xs sm:text-sm font-extrabold text-primary-500 uppercase tracking-widest">Perfil Estratégico</h2>
+                </div>
+                <h3 class="text-2xl sm:text-4xl font-bold text-slate-900 dark:text-white mb-6">
+                    Compromiso técnico, auditoría informática e innovación docente.
+                </h3>
+                
+                <p class="text-base sm:text-lg text-slate-600 dark:text-slate-300 mb-4 leading-relaxed">
+                    Inicié mi carrera en 2017 como Analista Programador (CFT INACAP) y posteriormente completé la Ingeniería en Informática (UTECH INACAP) en 2022. Esta combinación me permite ofrecer una visión integral que abarca desde el soporte técnico de bajo nivel hasta la gestión estratégica de sistemas de información.
+                </p>
+
+                <p class="text-base text-slate-600 dark:text-slate-400 mb-4 leading-relaxed">
+                    Mi diferencial radica en la versatilidad operativa: he liderado soporte a usuarios, resolución de incidencias críticas de hardware y software, administración de plataformas cloud (Google Workspace) e identificación de vulnerabilidades web con criterios de auditoría de seguridad.
+                </p>
+
+                <p class="text-base text-slate-600 dark:text-slate-400 mb-6 leading-relaxed">
+                    Complemento mis competencias con formación constante en educación superior, metodologías de enseñanza e integración de herramientas de Inteligencia Artificial para la optimización de procesos.
+                </p>
+
+                <!-- Cualidades del CV -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <div class="flex items-center gap-3 p-3 bg-slate-50 dark:bg-slate-900 rounded-xl border border-slate-100 dark:border-slate-800/60">
+                        <i data-lucide="check-circle-2" class="w-5 h-5 text-emerald-500 shrink-0"></i>
+                        <span class="text-sm font-semibold text-slate-800 dark:text-slate-200">Alta Capacidad de Adaptación</span>
+                    </div>
+                    <div class="flex items-center gap-3 p-3 bg-slate-50 dark:bg-slate-900 rounded-xl border border-slate-100 dark:border-slate-800/60">
+                        <i data-lucide="check-circle-2" class="w-5 h-5 text-emerald-500 shrink-0"></i>
+                        <span class="text-sm font-semibold text-slate-800 dark:text-slate-200">Proactividad y Responsabilidad</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Columna Foto de Perfil & Ficha Resumen (Derecha en desktop, Segunda en móvil) -->
+            <div class="lg:col-span-5">
+                <div class="bg-slate-50 dark:bg-slate-900 rounded-3xl p-6 sm:p-8 border border-slate-200 dark:border-slate-800 shadow-xl relative overflow-hidden flex flex-col items-center">
+                    <div class="absolute top-0 right-0 w-32 h-32 bg-primary-500/10 rounded-full blur-2xl"></div>
+                    
+                    <!-- Foto de Perfil -->
+                    <div class="relative group mb-6">
+                        <div class="absolute -inset-1.5 bg-gradient-to-r from-primary-500 via-sky-400 to-blue-600 rounded-full blur opacity-75 group-hover:opacity-100 transition duration-500 animate-pulse"></div>
+                        
+                        <div class="relative w-48 h-48 sm:w-56 sm:h-56 rounded-full overflow-hidden border-4 border-white dark:border-slate-900 bg-slate-200 dark:bg-slate-800 shadow-xl flex items-center justify-center">
+                            <img id="profile-picture" 
+                                 src="foto-esteban-munoz.jpg" 
+                                 alt="Esteban Andrés Muñoz Soto - Ingeniero en Informática" 
+                                 class="w-full h-full object-cover object-center transition-transform duration-500 group-hover:scale-105"
+                                 onerror="this.src='https://placehold.co/400x400/0284c7/ffffff?text=Esteban+Mu%C3%B1oz'">
+                        </div>
+
+                        <!-- Indicador de Disponibilidad -->
+                        <div class="absolute bottom-1 right-1 bg-white dark:bg-slate-900 px-3 py-1 rounded-full shadow-lg border border-slate-200 dark:border-slate-700 flex items-center gap-2">
+                            <span class="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-ping"></span>
+                            <span class="w-2 h-2 rounded-full bg-emerald-500 absolute left-3.5"></span>
+                            <span class="text-[11px] font-bold text-slate-800 dark:text-slate-200">Disponibilidad Inmediata</span>
+                        </div>
+                    </div>
+
+                    <div class="text-center mb-6">
+                        <h4 class="text-2xl font-bold text-slate-900 dark:text-white">Esteban Muñoz Soto</h4>
+                        <p class="text-xs font-semibold text-primary-600 dark:text-primary-400 uppercase tracking-wider mt-1">Ingeniero en Informática</p>
+                    </div>
+
+                    <div class="w-full space-y-3.5 text-sm text-slate-600 dark:text-slate-300 border-t border-slate-200 dark:border-slate-800/80 pt-5">
+                        <div class="flex items-start gap-3">
+                            <i data-lucide="map-pin" class="w-5 h-5 text-primary-500 shrink-0 mt-0.5"></i>
+                            <span>Las Heras 114, Concepción, Bío-Bío, Chile</span>
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <i data-lucide="graduation-cap" class="w-5 h-5 text-primary-500 shrink-0"></i>
+                            <span>Ingeniería en Informática (INACAP)</span>
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <i data-lucide="award" class="w-5 h-5 text-primary-500 shrink-0"></i>
+                            <span>Analista Programador (CFT INACAP)</span>
+                        </div>
+                    </div>
+
+                    <div class="mt-6 w-full pt-6 border-t border-slate-200 dark:border-slate-800 grid grid-cols-2 gap-4 text-center">
+                        <div class="p-3 bg-white dark:bg-slate-950 rounded-xl border border-slate-100 dark:border-slate-800">
+                            <p class="text-2xl font-extrabold text-slate-900 dark:text-white">9+</p>
+                            <p class="text-xs text-slate-500 dark:text-slate-400 font-medium">Años Experiencia</p>
+                        </div>
+                        <div class="p-3 bg-white dark:bg-slate-950 rounded-xl border border-slate-100 dark:border-slate-800">
+                            <p class="text-2xl font-extrabold text-slate-900 dark:text-white">100%</p>
+                            <p class="text-xs text-slate-500 dark:text-slate-400 font-medium">Compromiso TI</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- Trayectoria Completa sin Repeticiones -->
+<section id="experiencia" class="py-20 md:py-28 bg-slate-50 dark:bg-slate-900 transition-colors duration-300 fade-in-section">
+<!-- ... existing code ... -->
+```
+
+He reordenado la sección **Sobre Mí** colocando la columna narrativa a la izquierda (`col-span-7`) y la tarjeta visual a la derecha (`col-span-5`), corrigiendo también la estructura interna de las métricas. En dispositivos móviles ahora se visualizará primero el texto introductorio y luego la tarjeta con la foto y disponibilidad.
